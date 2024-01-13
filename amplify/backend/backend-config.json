@@ -1,45 +1,30 @@
 {
   "auth": {
-    "rebzlist": {
+    "rebzlistaf1ca0d9": {
       "customAuth": false,
       "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
       "providerPlugin": "awscloudformation",
-      "service": "Cognito",
-      "serviceType": "imported"
-    }
-  },
-  "parameters": {
-    "AMPLIFY_auth_rebzlist_nativeClientId": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "rebzlist"
-        }
-      ]
-    },
-    "AMPLIFY_auth_rebzlist_userPoolId": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "rebzlist"
-        }
-      ]
-    },
-    "AMPLIFY_auth_rebzlist_userPoolName": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "rebzlist"
-        }
-      ]
-    },
-    "AMPLIFY_auth_rebzlist_webClientId": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "rebzlist"
-        }
-      ]
+      "service": "Cognito"
     }
   }
 }

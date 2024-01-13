@@ -13,12 +13,7 @@
     },
     "categories": {
       "auth": {
-        "rebzlist": {
-          "nativeClientId": "75lkhagehuatclnlim7gb4k43a",
-          "userPoolId": "us-east-2_XDqsFBTP2",
-          "userPoolName": "RebzListUser",
-          "webClientId": "75lkhagehuatclnlim7gb4k43a"
-        }
+        "rebzlistaf1ca0d9": {}
       }
     }
   }
