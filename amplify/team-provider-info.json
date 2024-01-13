@@ -1,0 +1,25 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rebzlist-staging-234547-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767398084828:role/amplify-rebzlist-staging-234547-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767398084828:role/amplify-rebzlist-staging-234547-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-rebzlist-staging-234547-deployment",
+      "UnauthRoleName": "amplify-rebzlist-staging-234547-unauthRole",
+      "StackName": "amplify-rebzlist-staging-234547",
+      "StackId": "arn:aws:cloudformation:us-east-2:767398084828:stack/amplify-rebzlist-staging-234547/b5e12c50-b1a4-11ee-954f-02b07b032083",
+      "AmplifyAppId": "d1ynqg3lb0uus3"
+    },
+    "categories": {
+      "auth": {
+        "rebzlist": {
+          "nativeClientId": "75lkhagehuatclnlim7gb4k43a",
+          "userPoolId": "us-east-2_XDqsFBTP2",
+          "userPoolName": "RebzListUser",
+          "webClientId": "75lkhagehuatclnlim7gb4k43a"
+        }
+      }
+    }
+  }
+}
